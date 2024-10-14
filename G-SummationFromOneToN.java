@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SummationFromOneToOne {
+public class SummationFromOneToN {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
         long n = myObj.nextLong();
