@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Char {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
-        int offest = 'a'-'A';
+        int offest = 32;    //'a'-'A'
         char a = myObj.next().charAt(0);
         int ch = (int)a;
         if(ch>=97&&ch<=122){
@@ -13,6 +13,5 @@ public class Char {
             a+=offest;
             System.out.println(a);
         }
-            
     }
 }
